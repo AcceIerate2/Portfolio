@@ -5,10 +5,10 @@ const select_btn = document.getElementById("select_btn")
 function ButtonClicked(Page) {
     if (Page == `Scripting`) {
         console.log("Opening My Scripting Portfolio. Please Wait.")
-        window.open("https://acceierate2.github.io/RobloxPortfolio/ScriptingPortfolio.html", "_blank")
+        window.open("https://acceierate2.github.io/Portfolio/ScriptingPortfolio.html", "_blank")
     } else if (Page == `builds`) {
         console.log("Opening My Building Portfolio. Please Wait.")
-        window.open("https://acceierate2.github.io/RobloxPortfolio/BuildsPortfolio.html", "_blank")
+        window.open("https://acceierate2.github.io/Portfolio/BuildsPortfolio.html", "_blank")
     } else if (Page == `ShowUi`) {
         document.getElementById("skillsframe").style.visibility = "visible"
     }
